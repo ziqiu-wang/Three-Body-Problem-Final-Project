@@ -1,3 +1,7 @@
+## This file contains all necessary functions to work in the CM frame. For rotating frame modifications, see RotatingFrame.py.
+
+
+
 import numpy as np
 from scipy.signal import argrelextrema
 from matplotlib import pyplot as plt
