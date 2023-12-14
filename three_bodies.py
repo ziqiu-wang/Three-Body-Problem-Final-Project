@@ -20,6 +20,10 @@ plot_solution(bodies, 0.0001, 80000)    # another set of initial conditions
 
 ## PART 3 Q4
 
+bodies = [Body(2, np.array([0.0,0.0,0.0]), np.array([0.0,0.0,0.0])),
+          Body(0.02, np.array([0.0,2.0,0.0]), np.array([1.0,0.0,0.0]))]
+plot_solution(bodies, 0.0001, 200000)   # just the two particles
+
 r_lst = [0.25, 0.5, 1.0, 1.7, 1.9, 1.97, 1.99, 1.997, 1.999,
          2.0, 2.001, 2.004, 2.01, 2.03, 2.1, 2.2, 2.5, 3.0, 5.0, 10.0]
 for r in r_lst:
