@@ -1,3 +1,8 @@
+## This file contains a function that finds that period given a continuous distance function.
+## However, it is not used in our project. The function used for finding period can be
+## found in projectIntegrator.py.
+
+
 import numpy as np
 import scipy.optimize as opt
 
