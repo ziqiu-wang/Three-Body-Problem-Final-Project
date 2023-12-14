@@ -1,3 +1,6 @@
+## This file is a modified version of projectIntegrator.py and is used for working in the rotating frame
+
+
 import numpy as np
 from scipy.signal import argrelextrema
 from matplotlib import pyplot as plt
