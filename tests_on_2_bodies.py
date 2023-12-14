@@ -30,11 +30,11 @@ plot_solution(bodies, 0.0005, 400000) # elliptical orbits, slanted
 # Testing periods of two body systems
 bodies = [Body(2, np.array([0.0,0.0,0.0]), np.array([-0.03,0.0,0.0])),
           Body(0.002, np.array([0.0,1.0,0.0]), np.array([1.0,0.0,0.0]))]
-solve_n_body_problem(bodies, 0.0001, 54000)
+plot_solution(bodies, 0.0001, 54000)
 
 bodies = [Body(2, np.array([0.0,0.0,0.0]), np.array([-1.0,0.0,0.0])),
           Body(2, np.array([0.0,1.0,0.0]), np.array([1.0,0.0,0.0]))]
-solve_n_body_problem(bodies, 0.0001, 200000)
+plot_solution(bodies, 0.0001, 200000)
 
 
 # Testing convergence of time step
