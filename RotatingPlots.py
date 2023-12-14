@@ -1,3 +1,6 @@
+## This file is used to generate rotating frame plots.
+
+
 import numpy as np
 import matplotlib.pyplot as plt
 from RotatingFrame import solve_n_body_problem, Body, plot_helper
