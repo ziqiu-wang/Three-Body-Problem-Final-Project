@@ -1,9 +1,12 @@
+## This file is used to produce the plots for three-bodies systems, in the CM frame.
+
+
 import numpy as np
 import matplotlib.pyplot as plt
 from projectIntegrator import solve_n_body_problem, Body, plot_helper, plot_solution
 
 
-######## PART 3 Q1
+## PART 3 Q1
 
 bodies = [Body(2, np.array([0.0,0.0,0.0]), np.array([-1.0,0.0,0.0])),
           Body(2, np.array([0.0,1.0,0.0]), np.array([1.0,0.0,0.0])),
@@ -15,7 +18,7 @@ bodies = [Body(2, np.array([0.0,0.0,0.0]), np.array([-1.0,0.0,0.0])),
           Body(0.01, np.array([-0.4,-1.2,0.0]), np.array([-2.0,0.8,0.0]))]
 plot_solution(bodies, 0.0001, 80000)    # another set of initial conditions
 
-############## PART 3 Q4
+## PART 3 Q4
 
 r_lst = [0.25, 0.5, 1.0, 1.7, 1.9, 1.97, 1.99, 1.997, 1.999,
          2.0, 2.001, 2.004, 2.01, 2.03, 2.1, 2.2, 2.5, 3.0, 5.0, 10.0]
