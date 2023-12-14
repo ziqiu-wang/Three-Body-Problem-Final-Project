@@ -1,3 +1,6 @@
+## This file contains all tests on two-body systems.
+
+
 import numpy as np
 from matplotlib import pyplot as plt
 from projectIntegrator import Body, solve_n_body_problem, plot_helper, plot_solution
